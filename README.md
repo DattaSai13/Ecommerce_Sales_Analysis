@@ -1,181 +1,150 @@
-Week 4: Complete Data Analysis & Visualization Project
-📊 Project Title: E-commerce Sales Analysis
-📌 Project Overview
+# Week 4: Complete Data Analysis & Visualization Project
+## 📊 Project Title: E-commerce Sales Analysis
 
-The E-commerce Sales Analysis project is a beginner-level Python project developed as part of Week 4 learning.
-This project demonstrates a complete data analysis pipeline, including data loading, cleaning, analysis, visualization, and interpretation of results.
+## 📌 Project Overview
+The E-commerce Sales Analysis project is a beginner-level Python project developed
+as part of Week 4 learning. This project demonstrates a complete data analysis
+pipeline including data loading, cleaning, analysis, visualization, and
+interpretation of results.
 
-The project uses Pandas for data analysis and Matplotlib for data visualization to generate meaningful insights from sales data.
+The project uses Pandas for data analysis and Matplotlib for data visualization
+to generate meaningful insights from sales data.
 
-🎯 Project Goals and Objectives
+---
 
-The main objectives of this project are:
+## 🎯 Project Goals and Objectives
+- Understand why data visualization is important
+- Analyze real-world sales data using Python
+- Clean and prepare data for analysis
+- Create professional charts using Matplotlib
+- Identify trends and patterns in sales data
+- Present findings using both numbers and visualizations
 
-To understand why data visualization is important
+---
 
-To analyze real-world sales data using Python
+## ⚙️ Setup and Installation Instructions
 
-To clean and prepare data for analysis
-
-To create professional charts using Matplotlib
-
-To identify trends and patterns in sales data
-
-To present findings using both numbers and visualizations
-
-⚙️ Setup and Installation Instructions
-Step 1: Install Python
-
-Download Python 3.x from https://www.python.org
-
-During installation, select “Add Python to PATH”
-
-Verify installation:
+### Step 1: Install Python
+1. Download Python 3.x from https://www.python.org
+2. During installation, select "Add Python to PATH"
+3. Verify installation:
 
 python --version
 
-Step 2: Install Required Libraries
 
-Open Command Prompt or Terminal and run:
+### Step 2: Install Required Libraries
+
 
 pip install pandas matplotlib
 
-Step 3: Project Setup
 
-Open VS Code
+### Step 3: Project Setup
+1. Open VS Code
+2. Open the project folder:
 
-Open the project folder:
 
 Week4_Ecommerce_Sales_Analysis
 
+3. Place the dataset file in:
 
-Place the dataset file in:
 
 data/sales_data.csv
 
-Step 4: Run the Project
+
+### Step 4: Run the Project
+
+
 python main.py
 
 
-Charts will be displayed on screen and saved automatically in the visualizations/ folder.
+Charts will be displayed on screen and saved automatically in the
+`visualizations/` folder.
 
-🧱 Code Structure
+---
+
+## 🧱 Code Structure
+
+
 Week4_Ecommerce_Sales_Analysis/
 │
-├── main.py                    # Main analysis & visualization script
-├── analysis.ipynb             # Optional exploratory notebook
-├── requirements.txt           # Project dependencies
+├── main.py # Main analysis & visualization script
+├── analysis.ipynb # Optional exploratory notebook
+├── requirements.txt # Project dependencies
 │
 ├── data/
-│   └── sales_data.csv         # Sales dataset
+│ └── sales_data.csv # Sales dataset
 │
 ├── visualizations/
-│   ├── sales_by_product.png
-│   ├── monthly_sales_trend.png
-│   └── sales_by_region.png
+│ ├── sales_by_product.png
+│ ├── monthly_sales_trend.png
+│ └── sales_by_region.png
 │
 └── report/
-    └── report.txt             # Written insights and conclusions
+└── report.txt # Written insights and conclusions
 
 
-The project follows a clear and well-organized structure, making it easy to understand and maintain.
+---
 
-🖼️ Visual Documentation
-
+## 🖼️ Visual Documentation
 The following visualizations are generated in this project:
+- Bar Chart: Sales by Product
+- Line Chart: Monthly Sales Trend
+- Pie Chart: Sales Distribution by Region
 
-Bar Chart: Sales by Product
+Screenshots of these charts are stored in the `visualizations/` folder and
+demonstrate successful execution of the project.
 
-Line Chart: Monthly Sales Trend
+---
 
-Pie Chart: Sales Distribution by Region
+## 🔧 Technical Details
 
-Screenshots of these charts are stored in the visualizations/ folder and demonstrate successful execution of the project.
+### Algorithm
+1. Load the CSV dataset using Pandas
+2. Convert date column to datetime format
+3. Handle missing values and remove duplicates
+4. Perform grouping and aggregation operations
+5. Calculate key sales metrics
+6. Generate visualizations using Matplotlib
+7. Save charts and display results
 
-🔧 Technical Details
-Algorithm
+### Data Structures Used
+- Pandas DataFrame for handling tabular data
+- Python variables for storing calculated metrics
 
-Load the CSV dataset using Pandas
+### Architecture
+- Procedural Python program
+- Single main script (`main.py`)
+- Pandas used for data analysis
+- Matplotlib used for visualization
 
-Convert date column to datetime format
+---
 
-Handle missing values and remove duplicates
+## 🧪 Testing Evidence
 
-Perform grouping and aggregation operations
+### Test Case 1: Normal Dataset
+- Input: Original sales dataset
+- Expected Result: Correct metrics and charts
+- Status: Passed
 
-Calculate key sales metrics
+### Test Case 2: Missing Values
+- Input: Dataset with missing values
+- Expected Result: No runtime errors
+- Status: Passed
 
-Generate visualizations using Matplotlib
+### Test Case 3: Duplicate Records
+- Input: Dataset with duplicate rows
+- Expected Result: Duplicate rows removed
+- Status: Passed
 
-Save charts and display results
+---
 
-Data Structures Used
+## 🧠 Key Insights
+- Certain products generate higher revenue than others
+- Sales vary across different months indicating trends
+- One region contributes the highest share of total sales
+- Visualizations make trends easier to understand than raw data
 
-Pandas DataFrame for handling tabular data
+---
 
-Python variables for storing calculated metrics
-
-Architecture
-
-Procedural Python program
-
-Single main script (main.py)
-
-Pandas used for data analysis
-
-Matplotlib used for visualization
-
-🧪 Testing Evidence
-Test Case 1: Normal Dataset
-
-Input: Original sales dataset
-
-Expected Result: Correct metrics and charts
-
-Status: Passed ✅
-
-Test Case 2: Missing Values
-
-Input: Dataset with missing values
-
-Expected Result: No runtime errors; values handled correctly
-
-Status: Passed ✅
-
-Test Case 3: Duplicate Records
-
-Input: Dataset with duplicate rows
-
-Expected Result: Duplicate rows removed
-
-Status: Passed ✅
-
-🧠 Key Insights
-
-Certain products generate higher revenue compared to others
-
-Sales show noticeable variation across different months
-
-One region contributes the highest share of total sales
-
-Visualizations make trends easier to understand than raw data
-
-✅ Project Status
-
+## ✅ Project Status
 Completed successfully and tested with real-world data.
-
-✔ Quality Standards Checklist – COMPLETED
-
-Project Overview ✅
-
-Project Goals & Objectives ✅
-
-Setup Instructions ✅
-
-Code Structure ✅
-
-Visual Documentation ✅
-
-Technical Details ✅
-
-Testing Evidence ✅
